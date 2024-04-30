@@ -4,5 +4,9 @@
       i_enable_imu: False
       i_enable_ir: False
       i_nn_type: none
+      i_pipeline_type: rgb
     rgb:
-      i_resolution: '720'
+      i_resolution: 720p
+      i_low_bandwidth: true
+      i_fps: 30.0
+      i_get_base_device_timestamp: true
